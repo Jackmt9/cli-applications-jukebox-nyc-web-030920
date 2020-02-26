@@ -1,4 +1,4 @@
-
+require 'pry'
 def help
   puts "I accept the following commands:"
   puts "- help : displays this help message"
@@ -21,6 +21,7 @@ def list(songs)
   songs.each_with_index do |song, index|
     puts index + ". " + song
   end
+  binding.pry
 end 
 
 def exit_jukebox
