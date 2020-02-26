@@ -23,7 +23,12 @@ def play(songs)
 end
 
 def list(songs)
-
+  count = 0
+  index = count + 1
+  while count < songs
+    puts "#{index}. #{songs[count]}"
+    count += 1
+  end
 end 
 
 def exit_jukebox
