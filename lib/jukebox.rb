@@ -19,7 +19,7 @@ end
 
 def list(songs)
   songs.each_with_index do |song, index|
-    puts index + ". " + song
+    puts index.to_s + ". " + song
   end
 end 
 binding.pry
