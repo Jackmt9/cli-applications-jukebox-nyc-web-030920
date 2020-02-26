@@ -22,7 +22,7 @@ def list(songs)
     puts index.to_s + ". " + song
   end
 end 
-binding.pry
+
 def exit_jukebox
   puts "Goodbye."
 end
