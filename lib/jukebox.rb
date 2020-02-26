@@ -8,7 +8,6 @@ def help
 end
 
 def play(songs)
-  binding.pry
   puts "Please enter a song name or number:"
   selection = gets.strip
   if songs.include?(selection)
