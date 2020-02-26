@@ -13,6 +13,7 @@ def play(songs)
     puts "Playing #{selection}"
   elsif selection.to_i == songs.length + 1
     puts "Playing #{songs[selection.to_i]}"
+  end
 end
 
 def list(songs)
