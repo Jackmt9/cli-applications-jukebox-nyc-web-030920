@@ -21,9 +21,8 @@ def list(songs)
   songs.each_with_index do |song, index|
     puts index + ". " + song
   end
-  binding.pry
 end 
-
+binding.pry
 def exit_jukebox
   puts "Goodbye."
 end
