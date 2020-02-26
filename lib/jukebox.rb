@@ -23,11 +23,8 @@ def play(songs)
 end
 
 def list(songs)
-  count = 0
-  index = count + 1
-  while count < songs
-    puts "#{index}. #{songs[count]}"
-    count += 1
+  songs.each_with_index do |song, index|
+    puts index + ". " + song
   end
 end 
 
