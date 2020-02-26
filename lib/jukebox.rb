@@ -18,11 +18,11 @@ def help
   puts "- exit : exits this program"
 end
 
-def play(song_name)
+def play(songs)
   
 end
 
-def list
+def list(songs)
 
 end 
 
